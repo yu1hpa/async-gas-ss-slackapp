@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": "./src/Main.ts",
+      "options": {
+        "quoteProps": "preserve"
+      }
+    }
+  ]
+}

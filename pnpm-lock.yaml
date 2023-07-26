@@ -1,0 +1,32 @@
+lockfileVersion: '6.0'
+
+devDependencies:
+  '@types/google-apps-script':
+    specifier: ^1.0.64
+    version: 1.0.64
+  apps-script-jobqueue:
+    specifier: github:k2tzumi/apps-script-jobqueue
+    version: github.com/k2tzumi/apps-script-jobqueue/c03164e1bd0fbfc51694adfca3a5bcf070cbd39e
+  prettier:
+    specifier: 3.0.0
+    version: 3.0.0
+
+packages:
+
+  /@types/google-apps-script@1.0.64:
+    resolution: {integrity: sha512-oxDnuewCGSPhlcpSiSMH9W2HkK3lV3tF/jYYqY9jdo2sKsNjeL+mH5lJiWEnqoMK8s/Sz3gxrpdsCrAFvRjTKQ==}
+    dev: true
+
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  github.com/k2tzumi/apps-script-jobqueue/c03164e1bd0fbfc51694adfca3a5bcf070cbd39e:
+    resolution: {tarball: https://codeload.github.com/k2tzumi/apps-script-jobqueue/tar.gz/c03164e1bd0fbfc51694adfca3a5bcf070cbd39e}
+    name: apps-script-jobqueue
+    version: 0.1.6
+    dependencies:
+      '@types/google-apps-script': 1.0.64
+    dev: true
