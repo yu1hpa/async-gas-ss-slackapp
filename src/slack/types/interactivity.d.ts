@@ -1,3 +1,5 @@
+// ref: https://github.com/k2tzumi/mob-timer-bot/blob/master/src/slack/types/index.d.ts
+
 declare namespace Slack {
   namespace Interactivity {
     interface Interaction {
@@ -52,7 +54,7 @@ declare namespace Slack {
       };
       response_url?: string;
       actions: [
-        ButtonAction | MultiUsersSelectAction | StaticSelectAction | ActionBase
+        ButtonAction | MultiUsersSelectAction | StaticSelectAction | ActionBase,
       ];
     }
     interface ViewSubmission extends Interaction {
